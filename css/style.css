@@ -1,0 +1,35 @@
+html, *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    
+}
+
+#particles-js{
+    background: #ccc;
+    height: 400px;
+}
+
+#login{
+    background: #fff;
+    opacity: 0.9;
+    padding: 2em;
+    border-radius: 3px;
+    border: #ccc 2px solid;
+    position: absolute;
+    top:50px;
+    left: 50px;
+}
+
+#login input[type="text"], #login input[type="password"]{
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 1px #ccc solid;
+}
+
+#login input[type="submit"]{
+    width: 100%;
+    height:50px;
+}
