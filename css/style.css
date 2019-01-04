@@ -8,7 +8,7 @@ body{
 }
 
 #particles-js{
-    background: #ccc;
+    background: url(../images/UNADJUSTEDNONRAW_thumb_2.jpg), #ccc;
     height: 400px;
 }
 
